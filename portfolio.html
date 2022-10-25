@@ -5,148 +5,172 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Портфоліо</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <a lang="en" href="./index.html">WebStudio</a>
-        <ul>
-          <li>
-            <a class="navigation" href="./index.html">Студія</a>
+    <header class="menu">
+      <nav class="menu-navigation">
+        <a class="logo" lang="en" href="./index.html">WebStudio</a>
+        <ul class="menu-list">
+          <li class="menu-item">
+            <a class="menu-link" href="./index.html">Студія</a>
           </li>
-          <li>
-            <a class="navigation" href="./portfolio.html">Портфоліо</a>
+          <li class="menu-item">
+            <a class="menu-link" href="./portfolio.html">Портфоліо</a>
           </li>
-          <li>
-            <a class="navigation" href="#contacts">Контакти</a>
+          <li class="menu-item">
+            <a class="menu-link" href="#contacts">Контакти</a>
           </li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="mailto:info@devstudio.com" class="contacts">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111" class="contacts">+38 096 111 11 11</a></li>
+      <ul class="contacts-list">
+        <li class="contact-item">
+          <a class="contact-mail-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        </li>
+        <li class="contact-item">
+          <a class="contact-phone-number" href="tel:+380961111111">+38 096 111 11 11</a>
+        </li>
       </ul>
     </header>
     <main>
-      <section>
-        <ul>
-          <li><button type="button">Усі</button></li>
-          <li><button type="button">Веб-сайти</button></li>
-          <li><button type="button">Додатки</button></li>
-          <li><button type="button">Дизайн</button></li>
-          <li><button type="button">Маркетинг</button></li>
+      <section class="porfolio">
+        <h1 class="sr-only">Портфоліо</h1>
+        <ul class="buttons-list">
+          <li class="buttons-item"><button type="button">Усі</button></li>
+          <li class="buttons-item"><button type="button">Веб-сайти</button></li>
+          <li class="buttons-item"><button type="button">Додатки</button></li>
+          <li class="buttons-item"><button type="button">Дизайн</button></li>
+          <li class="buttons-item"><button type="button">Маркетинг</button></li>
         </ul>
-        <ul>
-          <li>
+        <ul class="works">
+          <li class="wroks-item">
             <img
+              class="works-img"
               src="./images/second-project/web-site.jpg"
               alt="Сайт на ноутбуці"
               width="370"
               height="294"
             />
-            <h3>Технокряк</h3>
-            <p>Веб-сайт</p>
+            <h3 class="works-name">Технокряк</h3>
+            <p class="works-type">Веб-сайт</p>
           </li>
-          <li>
+          <li class="wroks-item">
             <img
+              class="works-img"
               src="./images/second-project/design.jpg"
               alt="Баскетболісти боряться за м'яч"
               width="370"
               height="294"
             />
-            <h3>Постер <span lang="en">New Orlean vs Golden Star</span></h3>
-            <p>Дизайн</p>
+            <h3 class="works-name">Постер <span lang="en">New Orlean vs Golden Star</span></h3>
+            <p class="works-type">Дизайн</p>
           </li>
-          <li>
+          <li class="wroks-item">
             <img
+              class="works-img"
               src="./images/second-project/addition.jpg"
               alt="Логотип ресторана"
               width="370"
               height="294"
             />
-            <h3>Ресторан <span lang="en">Seafood</span></h3>
-            <p>Додаток</p>
+            <h3 class="works-name">Ресторан <span lang="en">Seafood</span></h3>
+            <p class="works-type">Додаток</p>
           </li>
-          <li>
+          <li class="wroks-item">
             <img
+              class="works-img"
               src="./images/second-project/marketing.jpg"
               alt="Бездротові навушники"
               width="370"
               height="294"
             />
-            <h3>Проєкт <span lang="en">Prime</span></h3>
-            <p>Маркетинг</p>
+            <h3 class="works-name">Проєкт <span lang="en">Prime</span></h3>
+            <p class="works-type">Маркетинг</p>
           </li>
-          <li>
+          <li class="wroks-item">
             <img
+              class="works-img"
               src="./images/second-project/addition2.jpg"
               alt="Дві картонні коробки"
               width="370"
               height="294"
             />
-            <h3>Проєкт <span lang="en">Boxes</span></h3>
-            <p>Додаток</p>
+            <h3 class="works-name">Проєкт <span lang="en">Boxes</span></h3>
+            <p class="works-type">Додаток</p>
           </li>
-          <li>
+          <li class="wroks-item">
             <img
+              class="works-img"
               src="./images/second-project/web-site2.jpg"
               alt="Сайт на моніторі"
               width="370"
               height="294"
             />
-            <h3 lang="en">Inspiration has no Borders</h3>
-            <p>Веб-сайт</p>
+            <h3 class="works-name" lang="en">Inspiration has no Borders</h3>
+            <p class="works-type">Веб-сайт</p>
           </li>
-          <li>
+          <li class="wroks-item">
             <img
+              class="works-img"
               src="./images/second-project/design2.jpg"
               alt="Відкрита книга"
               width="370"
               height="294"
             />
-            <h3>Видання <span lang="en">Limited Edition</span></h3>
-            <p>Дизайн</p>
+            <h3 class="works-name">Видання <span lang="en">Limited Edition</span></h3>
+            <p class="works-type">Дизайн</p>
           </li>
-          <li>
+          <li class="wroks-item">
             <img
+              class="works-img"
               src="./images/second-project/marketing2.jpg"
               alt="Бірка"
               width="370"
               height="294"
             />
-            <h3>Проєкт <span lang="en">LAB</span></h3>
-            <p>Маркетинг</p>
+            <h3 class="works-name">Проєкт <span lang="en">LAB</span></h3>
+            <p class="works-type">Маркетинг</p>
           </li>
-          <li>
+          <li class="wroks-item">
             <img
+              class="works-img"
               src="./images/second-project/addition3.jpg"
               alt="Робота на ноутбуці"
               width="370"
               height="294"
             />
-            <h3 lang="en">Growing Business</h3>
-            <p>Додаток</p>
+            <h3 class="works-name" lang="en">Growing Business</h3>
+            <p class="works-type">Додаток</p>
           </li>
         </ul>
       </section>
     </main>
     <footer>
-      <a lang="en" href="./index.html">WebStudio</a>
+      <a class="logo" lang="en" href="./index.html">WebStudio</a>
       <address id="contacts">
-        <ul>
+        <ul class="menu list">
           <li>
             <a
+              class="link"
               href="https://www.google.com/maps/place/%D0%B1%D1%83%D0%BB%D1%8C%D0%B2%D0%B0%D1%80+%D0%9B%D0%B5%D1%81%D1%96+%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%BA%D0%B8,+26,+%D0%9A%D0%B8%D1%97%D0%B2,+02000/@50.4265807,30.5383858,17z/data=!3m1!4b1!4m5!3m4!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383858"
               target="_blank"
               rel="noopener noreferrer nofollow"
               >м. Київ, пр-т Лесі Українки, 26</a
             >
           </li>
-          <li><a href="mailto:info@devstudio.com" class="contacts">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111" class="contacts">+38 096 111 11 11</a></li>
+          <li>
+            <a class="contact-mail-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
+          <li><a class="contact-phone-number" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
       </address>
     </footer>
   </body>
 </html>
+web<span>studio</span>
