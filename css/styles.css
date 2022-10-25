@@ -197,6 +197,14 @@ li {
   color: #ffffff;
 }
 
+.contacts-map:hover {
+  color: #2196f3;
+}
+
+.contacts-map:focus {
+  color: #2196f3;
+}
+
 .contact-mail,
 .contact-phone {
   font-family: 'Roboto';
