@@ -16,7 +16,9 @@
   <body>
     <header class="menu">
       <nav class="menu-navigation">
-        <a class="logo" lang="en" href="./index.html">Web<span class="logo-studio">Studio</span></a>
+        <a class="logo" lang="en" href="./index.html"
+          >Web<span class="logo-studio-top">Studio</span></a
+        >
         <ul class="menu-list">
           <li class="menu-item">
             <a class="menu-link" href="./index.html">Студія</a>
@@ -42,11 +44,31 @@
       <section class="porfolio">
         <h1 class="sr-only">Портфоліо</h1>
         <ul class="buttons-list">
-          <li class="buttons-item"><button type="button">Усі</button></li>
-          <li class="buttons-item"><button type="button">Веб-сайти</button></li>
-          <li class="buttons-item"><button type="button">Додатки</button></li>
-          <li class="buttons-item"><button type="button">Дизайн</button></li>
-          <li class="buttons-item"><button type="button">Маркетинг</button></li>
+          <li class="buttons-item">
+            <button class="portfolio-page-button" type="button">
+              <span class="portfolio-text-button">Усі</span>
+            </button>
+          </li>
+          <li class="buttons-item">
+            <button class="portfolio-page-button" type="button">
+              <span class="portfolio-text-button">Веб-сайти</span>
+            </button>
+          </li>
+          <li class="buttons-item">
+            <button class="portfolio-page-button" type="button">
+              <span class="portfolio-text-button">Додатки</span>
+            </button>
+          </li>
+          <li class="buttons-item">
+            <button class="portfolio-page-button" type="button">
+              <span class="portfolio-text-button">Дизайн</span>
+            </button>
+          </li>
+          <li class="buttons-item">
+            <button class="portfolio-page-button" type="button">
+              <span class="portfolio-text-button">Маркетинг</span>
+            </button>
+          </li>
         </ul>
         <ul class="works">
           <li class="wroks-item">
@@ -151,23 +173,27 @@
         </ul>
       </section>
     </main>
-    <footer>
-      <a class="logo" lang="en" href="./index.html">Web<span class="logo-studio">Studio</span></a>
-      <address id="contacts">
-        <ul class="menu list">
-          <li>
+    <footer class="footer">
+      <a class="logo" lang="en" href="./index.html"
+        >Web<span class="logo-studio-bot">Studio</span></a
+      >
+      <address class="contacts" id="contacts">
+        <ul class="contacts-list">
+          <li class="contacts-item">
             <a
-              class="link"
+              class="contacts-map"
               href="https://www.google.com/maps/place/%D0%B1%D1%83%D0%BB%D1%8C%D0%B2%D0%B0%D1%80+%D0%9B%D0%B5%D1%81%D1%96+%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%BA%D0%B8,+26,+%D0%9A%D0%B8%D1%97%D0%B2,+02000/@50.4265807,30.5383858,17z/data=!3m1!4b1!4m5!3m4!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383858"
               target="_blank"
               rel="noopener noreferrer nofollow"
               >м. Київ, пр-т Лесі Українки, 26</a
             >
           </li>
-          <li>
-            <a class="contact-mail-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <li class="contact-item">
+            <a class="contact-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
           </li>
-          <li><a class="contact-phone-number" href="tel:+380961111111">+38 096 111 11 11</a></li>
+          <li class="contact-item">
+            <a class="contact-phone" href="tel:+380961111111">+38 096 111 11 11</a>
+          </li>
         </ul>
       </address>
     </footer>

@@ -1,6 +1,6 @@
 body {
   background-color: #fff;
-  font-family: 'roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 li {
@@ -9,7 +9,7 @@ li {
 
 .logo {
   text-decoration: none;
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -31,8 +31,11 @@ li {
   color: #212121;
 }
 
-.menu-link:hover,
-:focus {
+.menu-link:hover {
+  color: #2196f3;
+}
+
+.menu-link:focus {
   color: #2196f3;
 }
 
@@ -80,21 +83,9 @@ li {
 }
 
 .main-page-button {
-  background: #2196f3;
+  font-family: 'Roboto';
   border: none;
   cursor: pointer;
-}
-
-.main-page-button:hover {
-  color: #188ce8;
-}
-
-.main-page-button:focus {
-  color: #188ce8;
-}
-
-.text-button {
-  font-family: 'Roboto';
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -102,7 +93,16 @@ li {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  background: #2196f3;
   color: #ffffff;
+}
+
+.main-page-button:hover {
+  background: #188ce8;
+}
+
+.main-page-button:focus {
+  background: #188ce8;
 }
 
 .sr-only:not(:focus):not(:active) {
@@ -209,83 +209,44 @@ li {
   color: #757575;
 }
 
-/* start */
-
-/* :root {
-  
-  --white-color: #fff;
-  --accent-color: #ff6c00;
-
-
-  --main-font: "raleway", sans-serif;
-
-}
-
-
-h1 {
-  font-family: var(--main-font);
-  color: var(--accent-color);
-} */
-
-/* .link,
-.logo,
-.contacts-link {
-  text-decoration: none;
-}
-
-.list,
-.logo,
-.contacts-link {
-  list-style: none;
-}
-
-.logo {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 31px;
+.portfolio-page-button {
+  font-family: 'Roboto';
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
   letter-spacing: 0.03em;
-  color: #000000;
-} */
-
-/* body {
-  color: #fff;
-  font-family: 'raleway', sans-serif;
-  font-weight: 600;
-  font-size: 12px; */
-/* line-height: 16px or 1.33; */
-/* } */
-
-/* .button {
-  cursor: pointer, zoom-out;
-  outline: none, transparent; */
-
-/* .navigation {
+  background: #f5f4fa;
   color: #212121;
 }
 
-.navigation :hover,
-:focus {
-  color: #2196f3;
+.portfolio-page-button:hover {
+  background: #2196f3;
+  color: #ffffff;
 }
 
-.contacts {
+.portfolio-page-button:focus {
+  background: #2196f3;
+  color: #ffffff;
+}
+
+.works-name {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.works-type {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
   color: #757575;
 }
-
-.contacts :hover,
-:focus {
-  color: #2196f3;
-}
-
-button {
-  color: #212121;
-  background-color: #f5f4fa;
-}
-
-button :hover,
-:focus {
-  color: #ffffff;
-  background-color: #2196f3;
-} */
