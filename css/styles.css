@@ -63,11 +63,11 @@ li {
   color: #2196f3;
 }
 
-.upper-content {
+.preview {
   background: #2f303a;
 }
 
-.upper-title {
+.preview-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -77,7 +77,7 @@ li {
   color: #ffffff;
 }
 
-.main-page-button {
+.preview-button {
   border: none;
   cursor: pointer;
   font-weight: 700;
@@ -91,11 +91,11 @@ li {
   color: #ffffff;
 }
 
-.main-page-button:hover {
+.preview-button:hover {
   background: #188ce8;
 }
 
-.main-page-button:focus {
+.preview-button:focus {
   background: #188ce8;
 }
 
