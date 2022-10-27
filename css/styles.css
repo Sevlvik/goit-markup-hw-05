@@ -1,4 +1,40 @@
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+p {
+  margin: 0;
+}
+address {
+  font-style: normal;
+}
+button {
+  font-family: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 body {
+  margin: 0;
   background-color: #fff;
   font-family: 'Roboto', sans-serif;
 }
@@ -7,13 +43,30 @@ li {
   list-style: none;
 }
 
-.logo {
-  text-decoration: none;
+.container {
+  max-width: 1200px;
+  padding: 95px 15px;
+  margin: 0 auto;
+}
+
+.menu-container,
+.footer-container {
+  padding: 0 15px;
+}
+
+.logo-top,
+.logo-bottom {
   font-family: 'Raleway', sans-serif;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #2196f3;
+  margin-right: 90px;
+  padding-bottom: 25px;
+}
+
+.menu-item {
+  margin-right: 50px;
 }
 
 .logo-studio-top {
@@ -21,7 +74,6 @@ li {
 }
 
 .menu-link {
-  text-decoration: none;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -39,12 +91,19 @@ li {
 
 .top-mail-link,
 .top-phone-number {
-  text-decoration: none;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14px;
   letter-spacing: 0.02em;
   color: #757575;
+}
+
+.top-mail-link {
+  margin-left: auto;
+}
+
+.top-phone-number {
+  margin-left: 50px;
 }
 
 .top-phone-number:hover {
@@ -67,6 +126,11 @@ li {
   background: #2f303a;
 }
 
+.preview-container {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
 .preview-title {
   font-weight: 900;
   font-size: 44px;
@@ -75,6 +139,7 @@ li {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
+  margin-bottom: 30px;
 }
 
 .preview-button {
@@ -99,14 +164,29 @@ li {
   background: #188ce8;
 }
 
-.sr-only:not(:focus):not(:active) {
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  height: 1px;
-  overflow: hidden;
+.sr-only {
   position: absolute;
   white-space: nowrap;
   width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.features-container {
+  padding-bottom: 0;
+}
+
+.features-item {
+  margin-right: 30px;
+}
+
+.last-features-item {
+  margin-right: 0;
 }
 
 .features-title {
@@ -133,6 +213,14 @@ li {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  margin-bottom: 50px;
+}
+
+.about-item {
+  margin-right: 30px;
+}
+.last-about-item {
+  margin-right: 0;
 }
 
 .team {
@@ -146,6 +234,7 @@ li {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  margin-bottom: 50px;
 }
 
 .team-name {
@@ -155,6 +244,7 @@ li {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  margin-bottom: 10px;
 }
 
 .team-specialty {
@@ -164,6 +254,22 @@ li {
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
+  margin: 0 70px 30px 70px;
+}
+
+.team-iteam {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  margin-right: 30px;
+}
+
+.last-team-iteam {
+  margin-right: 0;
+}
+
+.team-img {
+  border-bottom: 30px;
 }
 
 .portfolio-page-button {
@@ -206,20 +312,25 @@ li {
 
 .footer {
   background: #2f303a;
+  padding-top: 0;
 }
 
 .logo-studio-bot {
   color: #ffffff;
 }
 
+.logo-bottom {
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
 .contacts-map {
-  text-decoration: none;
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
+  margin-bottom: 10px;
 }
 
 .contacts-map:hover {
@@ -232,13 +343,13 @@ li {
 
 .bot-mail-link,
 .bot-phone-number {
-  text-decoration: none;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 10px;
 }
 
 .bot-phone-number:hover {
@@ -255,4 +366,18 @@ li {
 
 .bot-mail-link:focus {
   color: #2196f3;
+}
+
+/* tests */
+.qweqwe {
+  /* вирівнювання */
+  margin-left: auto;
+  /* коло */
+  border-radius: 50%;
+  /* кути */
+  border-radius: 20px;
+  /* максимальна ширина */
+  max-width: 1500px;
+  /* мінімальна ширина */
+  min-width: 50%;
 }
