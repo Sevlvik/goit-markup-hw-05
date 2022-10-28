@@ -446,33 +446,3 @@ li {
 .bot-mail-link:focus {
   color: #2196f3;
 }
-
-/* tests */
-.qweqwe {
-  /* вирівнювання */
-  margin-left: auto;
-  /* коло */
-  border-radius: 50%;
-  /* кути */
-  border-radius: 20px;
-  /* максимальна ширина */
-  max-width: 1500px;
-  /* мінімальна ширина */
-  min-width: 50%;
-  /* вирівнює в ряд */
-  display: flex;
-  /* переміщає на наступний рядок, якро на цьому немає місця */
-  flex-wrap: wrap;
-  /* відступ між елементами */
-  gap: 30px;
-  /* робить розташування елементів вертикально */
-  flex-direction: column;
-  /* вирівнює по центру */
-  align-items: center;
-}
-
-.card-set {
-  flex-basis: calc((100% - 30px * 2) / 3);
-}
-/* в два рядки
-hero wids 700px */
