@@ -20,39 +20,41 @@
   <body>
     <header class="menu">
       <div class="container menu-container">
-        <nav class="menu-navigation">
-          <a class="logo logo-top" lang="en" href="./index.html"
-            >Web<span class="logo-studio-top">Studio</span></a
-          >
-          <ul class="menu-list">
-            <li class="menu-item">
-              <a class="menu-link" href="./index.html">Студія</a>
+        <div class="flex">
+          <nav class="menu-navigation flex">
+            <a class="logo logo-top" lang="en" href="./index.html"
+              >Web<span class="logo-studio-top">Studio</span></a
+            >
+            <ul class="menu-list flex">
+              <li class="menu-item">
+                <a class="menu-link" href="./index.html">Студія</a>
+              </li>
+              <li class="menu-item">
+                <a class="menu-link" href="./portfolio.html">Портфоліо</a>
+              </li>
+              <li class="menu-item">
+                <a class="menu-link" href="#contacts">Контакти</a>
+              </li>
+            </ul>
+          </nav>
+          <ul class="contact-list flex">
+            <li class="contact-item">
+              <a class="top-mail-link" lang="en" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
             </li>
-            <li class="menu-item">
-              <a class="menu-link" href="./portfolio.html">Портфоліо</a>
-            </li>
-            <li class="menu-item">
-              <a class="menu-link" href="#contacts">Контакти</a>
+            <li class="contact-item">
+              <a class="top-phone-number" href="tel:+380961111111">+38 096 111 11 11</a>
             </li>
           </ul>
-        </nav>
-        <ul class="contact-list">
-          <li class="contact-item">
-            <a class="top-mail-link" lang="en" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li class="contact-item">
-            <a class="top-phone-number" href="tel:+380961111111">+38 096 111 11 11</a>
-          </li>
-        </ul>
+        </div>
       </div>
     </header>
     <main>
       <section class="porfolio">
         <div class="container porfolio-container">
           <h1 class="sr-only">Портфоліо</h1>
-          <ul class="buttons-list">
+          <ul class="buttons-list flex">
             <li class="buttons-item">
               <button class="portfolio-page-button" type="button">
                 <span class="portfolio-text-button">Усі</span>
@@ -88,8 +90,10 @@
                 width="370"
                 height="294"
               />
-              <h3 class="works-name">Технокряк</h3>
-              <p class="works-type">Веб-сайт</p>
+              <div class="about-work">
+                <h3 class="works-name">Технокряк</h3>
+                <p class="works-type">Веб-сайт</p>
+              </div>
             </li>
             <li class="wroks-item">
               <img
@@ -99,8 +103,10 @@
                 width="370"
                 height="294"
               />
-              <h3 class="works-name">Постер <span lang="en">New Orlean vs Golden Star</span></h3>
-              <p class="works-type">Дизайн</p>
+              <div class="about-work">
+                <h3 class="works-name">Постер <span lang="en">New Orlean vs Golden Star</span></h3>
+                <p class="works-type">Дизайн</p>
+              </div>
             </li>
             <li class="wroks-item">
               <img
@@ -110,8 +116,10 @@
                 width="370"
                 height="294"
               />
-              <h3 class="works-name">Ресторан <span lang="en">Seafood</span></h3>
-              <p class="works-type">Додаток</p>
+              <div class="about-work">
+                <h3 class="works-name">Ресторан <span lang="en">Seafood</span></h3>
+                <p class="works-type">Додаток</p>
+              </div>
             </li>
             <li class="wroks-item">
               <img
@@ -121,8 +129,10 @@
                 width="370"
                 height="294"
               />
-              <h3 class="works-name">Проєкт <span lang="en">Prime</span></h3>
-              <p class="works-type">Маркетинг</p>
+              <div class="about-work">
+                <h3 class="works-name">Проєкт <span lang="en">Prime</span></h3>
+                <p class="works-type">Маркетинг</p>
+              </div>
             </li>
             <li class="wroks-item">
               <img
@@ -132,8 +142,10 @@
                 width="370"
                 height="294"
               />
-              <h3 class="works-name">Проєкт <span lang="en">Boxes</span></h3>
-              <p class="works-type">Додаток</p>
+              <div class="about-work">
+                <h3 class="works-name">Проєкт <span lang="en">Boxes</span></h3>
+                <p class="works-type">Додаток</p>
+              </div>
             </li>
             <li class="wroks-item">
               <img
@@ -143,8 +155,10 @@
                 width="370"
                 height="294"
               />
-              <h3 class="works-name" lang="en">Inspiration has no Borders</h3>
-              <p class="works-type">Веб-сайт</p>
+              <div class="about-work">
+                <h3 class="works-name" lang="en">Inspiration has no Borders</h3>
+                <p class="works-type">Веб-сайт</p>
+              </div>
             </li>
             <li class="wroks-item">
               <img
@@ -154,8 +168,10 @@
                 width="370"
                 height="294"
               />
-              <h3 class="works-name">Видання <span lang="en">Limited Edition</span></h3>
-              <p class="works-type">Дизайн</p>
+              <div class="about-work">
+                <h3 class="works-name">Видання <span lang="en">Limited Edition</span></h3>
+                <p class="works-type">Дизайн</p>
+              </div>
             </li>
             <li class="wroks-item">
               <img
@@ -165,8 +181,10 @@
                 width="370"
                 height="294"
               />
-              <h3 class="works-name">Проєкт <span lang="en">LAB</span></h3>
-              <p class="works-type">Маркетинг</p>
+              <div class="about-work">
+                <h3 class="works-name">Проєкт <span lang="en">LAB</span></h3>
+                <p class="works-type">Маркетинг</p>
+              </div>
             </li>
             <li class="wroks-item">
               <img
@@ -176,8 +194,10 @@
                 width="370"
                 height="294"
               />
-              <h3 class="works-name" lang="en">Growing Business</h3>
-              <p class="works-type">Додаток</p>
+              <div class="about-work">
+                <h3 class="works-name" lang="en">Growing Business</h3>
+                <p class="works-type">Додаток</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -185,10 +205,12 @@
     </main>
     <footer class="footer">
       <div class="container footer-container">
-        <a class="logo logo-bottom" lang="en" href="./index.html"
-          >Web<span class="logo-studio-bot">Studio</span></a
-        >
-        <address class="contacts" id="contacts">
+        <div class="flex-logo-bot">
+          <a class="logo logo-bottom" lang="en" href="./index.html"
+            >Web<span class="logo-studio-bot">Studio</span></a
+          >
+        </div>
+        <address class="contacts flex" id="contacts">
           <ul class="contacts-list">
             <li class="contacts-item">
               <a
