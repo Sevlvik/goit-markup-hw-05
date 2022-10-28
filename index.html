@@ -20,47 +20,51 @@
   <body>
     <header class="menu">
       <div class="container menu-container">
-        <nav class="menu-navigation">
-          <a class="logo logo-top" lang="en" href="./index.html"
-            >Web<span class="logo-studio-top">Studio</span></a
-          >
-          <ul class="menu-list">
-            <li class="menu-item">
-              <a class="menu-link" href="./index.html">Студія</a>
+        <div class="flex">
+          <nav class="menu-navigation flex">
+            <a class="logo logo-top" lang="en" href="./index.html"
+              >Web<span class="logo-studio-top">Studio</span></a
+            >
+            <ul class="menu-list flex">
+              <li class="menu-item">
+                <a class="menu-link" href="./index.html">Студія</a>
+              </li>
+              <li class="menu-item">
+                <a class="menu-link" href="./portfolio.html">Портфоліо</a>
+              </li>
+              <li class="menu-item">
+                <a class="menu-link" href="#contacts">Контакти</a>
+              </li>
+            </ul>
+          </nav>
+          <ul class="contact-list flex">
+            <li class="contact-item">
+              <a class="top-mail-link" lang="en" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
             </li>
-            <li class="menu-item">
-              <a class="menu-link" href="./portfolio.html">Портфоліо</a>
-            </li>
-            <li class="menu-item">
-              <a class="menu-link" href="#contacts">Контакти</a>
+            <li class="contact-item">
+              <a class="top-phone-number" href="tel:+380961111111">+38 096 111 11 11</a>
             </li>
           </ul>
-        </nav>
-        <ul class="contact-list">
-          <li class="contact-item">
-            <a class="top-mail-link" lang="en" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li class="contact-item">
-            <a class="top-phone-number" href="tel:+380961111111">+38 096 111 11 11</a>
-          </li>
-        </ul>
+        </div>
       </div>
     </header>
     <main class="main-page">
       <section class="preview">
         <div class="container preview-container">
           <h1 class="preview-title">Ефективні рішення для вашого бізнесу</h1>
-          <button class="preview-button" type="button">
-            <span class="preview-text-button">Замовити послугу</span>
-          </button>
+          <div class="button-center">
+            <button class="preview-button" type="button">
+              <span class="preview-text-button">Замовити послугу</span>
+            </button>
+          </div>
         </div>
       </section>
       <section class="features">
         <div class="container features-container">
           <h2 class="sr-only">Студія</h2>
-          <ul class="features-list">
+          <ul class="features-list flex">
             <li class="features-item">
               <h3 class="features-title">УВАГА ДО ДЕТАЛЕЙ</h3>
               <p class="featurest-detail">
@@ -79,7 +83,7 @@
                 Так само консультація з широким активом значною мірою зумовлює.
               </p>
             </li>
-            <li class="features-item last-features-item">
+            <li class="features-item">
               <h3 class="features-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
               <p class="featurest-detail">
                 Значимість цих проблем настільки очевидна, що реалізація планових завдань.
@@ -90,8 +94,8 @@
       </section>
       <section class="about">
         <div class="container about-container">
-          <h2 class="about-title" id="portfolio">Чим ми займаємося</h2>
-          <ul class="about-list">
+          <h2 class="about-title">Чим ми займаємося</h2>
+          <ul class="about-list flex">
             <li class="about-item">
               <img
                 class="about-img"
@@ -110,7 +114,7 @@
                 height="294"
               />
             </li>
-            <li class="about-item last-about-item">
+            <li class="about-item">
               <img
                 class="about-img"
                 src="./images/skills/gradient.jpg"
@@ -125,7 +129,7 @@
       <section class="team">
         <div class="container team-container">
           <h2 class="team-title">Наша команда</h2>
-          <ul class="team-list">
+          <ul class="team-list flex">
             <li class="team-iteam">
               <img
                 class="team-img"
@@ -176,10 +180,12 @@
     </main>
     <footer class="footer">
       <div class="container footer-container">
-        <a class="logo logo-bottom" lang="en" href="./index.html"
-          >Web<span class="logo-studio-bot">Studio</span></a
-        >
-        <address class="contacts" id="contacts">
+        <div class="flex-logo-bot">
+          <a class="logo logo-bottom" lang="en" href="./index.html"
+            >Web<span class="logo-studio-bot">Studio</span></a
+          >
+        </div>
+        <address class="contacts flex" id="contacts">
           <ul class="contacts-list">
             <li class="contacts-item">
               <a
@@ -190,12 +196,12 @@
                 >м. Київ, пр-т Лесі Українки, 26</a
               >
             </li>
-            <li class="contact-item">
+            <li class="contacts-item">
               <a class="bot-mail-link" lang="en" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
               >
             </li>
-            <li class="contact-item">
+            <li class="contacts-item">
               <a class="bot-phone-number" href="tel:+380961111111">+38 096 111 11 11</a>
             </li>
           </ul>
