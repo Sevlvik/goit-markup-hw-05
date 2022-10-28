@@ -143,7 +143,6 @@ li {
 }
 
 .preview-title {
-
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -350,7 +349,13 @@ li {
 }
 
 .wroks-item {
-  border: 1px solid #eeeeee;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+  border-right: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  width: 370px;
+  height: 404px;
 }
 
 .works-name {
@@ -380,7 +385,7 @@ li {
 }
 
 .footer-container {
-padding-top: 60px;
+  padding-top: 60px;
   padding-bottom: 60px;
 }
 
