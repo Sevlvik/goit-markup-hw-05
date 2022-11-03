@@ -253,10 +253,6 @@ li {
   gap: 30px;
 }
 
-.team-img {
-  margin-bottom: 30px;
-}
-
 .team-name {
   font-weight: 500;
   font-size: 16px;
@@ -274,7 +270,11 @@ li {
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
-  margin: 0 70px 30px 70px;
+}
+
+.about-photo {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .team-item {
@@ -333,15 +333,9 @@ li {
   border-radius: 4px;
 }
 
-
 .wroks-item {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
-  border-right: 1px solid #eeeeee;
-  border-left: 1px solid #eeeeee;
-  border-bottom: 1px solid #eeeeee;
-  width: 370px;
-  height: 404px;
 }
 
 .works-name {
@@ -362,7 +356,10 @@ li {
 }
 
 .about-work {
-  margin: 20px 24px;
+  padding: 20px 25px;
+  border-right: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
 }
 
 .footer {
