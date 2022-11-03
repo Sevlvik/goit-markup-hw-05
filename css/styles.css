@@ -43,6 +43,8 @@ li {
   list-style: none;
 }
 
+/* Header section */
+
 .container {
   max-width: 1200px;
   padding: 94px 15px;
@@ -133,8 +135,19 @@ li {
   color: #2196f3;
 }
 
+/* Preview section */
+
 .preview {
   background: #2f303a;
+}
+
+.preview-wrapper {
+  max-width: 1600px;
+  max-height: 600px;
+  margin-right: auto;
+  margin-left: auto;
+  background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url('../images/background/Img-bg.jpg') no-repeat center/cover, #2f303a;
 }
 
 .preview-container {
@@ -195,6 +208,8 @@ li {
   margin: -1px;
 }
 
+/* Features section */
+
 .features-container {
   padding-bottom: 0;
 }
@@ -221,6 +236,8 @@ li {
   color: #757575;
 }
 
+/* About section */
+
 .about-title {
   font-weight: 700;
   font-size: 36px;
@@ -234,6 +251,7 @@ li {
 .about-list {
   gap: 30px;
 }
+/* Team section  */
 
 .team {
   background: #f5f4fa;
@@ -272,7 +290,7 @@ li {
   color: #757575;
 }
 
-.about-photo {
+.team-photo {
   padding-top: 30px;
   padding-bottom: 30px;
 }
@@ -282,6 +300,8 @@ li {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
+
+/* Porfolio section */
 
 .portfolio-page-button {
   border: none;
@@ -297,6 +317,8 @@ li {
   padding: 6px 25px;
 }
 
+/* Buttons section */
+
 .buttons-item {
   margin-right: 10px;
 }
@@ -310,6 +332,8 @@ li {
 .buttons-item:last-child {
   margin-right: 0;
 }
+
+/* Works section */
 
 .works {
   display: flex;
@@ -361,6 +385,8 @@ li {
   border-left: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
 }
+
+/* Footer section */
 
 .footer {
   background: #2f303a;
