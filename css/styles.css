@@ -45,9 +45,17 @@ li {
 
 /* Header section */
 
+.menu-link.current {
+  color: #2196F3;
+}
+
+.section {
+  padding: 94px 0;
+}
+
 .container {
   max-width: 1200px;
-  padding: 94px 15px;
+  padding: 0 15px;
   margin: 0 auto;
 }
 
@@ -55,8 +63,7 @@ li {
   display: flex;
 }
 
-.menu-container {
-  padding: 25px 15px;
+.menu {
   border-bottom: 1px solid #ececec;
 }
 
@@ -76,6 +83,7 @@ li {
 
 .logo-top {
   margin-right: 95px;
+  padding: 25px 0;
 }
 
 .menu-item {
@@ -92,6 +100,7 @@ li {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
+  padding: 32px 0 32px 0;
 }
 
 .menu-link:hover,
@@ -106,6 +115,9 @@ li {
   line-height: 1.14px;
   letter-spacing: 0.02em;
   color: #757575;
+  padding: 32px 0 32px 0;
+  display: flex;
+  align-items: center;
 }
 
 .contact-list {
@@ -137,13 +149,18 @@ li {
 
 .preview {
   background: #2f303a;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1600px;
+  max-height: 600px;
 }
 
 .preview-wrapper {
   max-width: 1600px;
   max-height: 600px;
-  margin-right: auto;
-  margin-left: auto;
+  margin: 0 auto;
   background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url('../images/background/Img-bg.jpg') no-repeat center/cover, #2f303a;
 }
@@ -205,7 +222,7 @@ li {
 
 /* Features section */
 
-.features-container {
+.features {
   padding-bottom: 0;
 }
 
